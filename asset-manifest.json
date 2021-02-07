@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kakarinweb/static/css/main.9c414eac.chunk.css",
-    "main.js": "/kakarinweb/static/js/main.726db1c5.chunk.js",
-    "main.js.map": "/kakarinweb/static/js/main.726db1c5.chunk.js.map",
+    "main.js": "/kakarinweb/static/js/main.fa86430e.chunk.js",
+    "main.js.map": "/kakarinweb/static/js/main.fa86430e.chunk.js.map",
     "runtime-main.js": "/kakarinweb/static/js/runtime-main.637a3be1.js",
     "runtime-main.js.map": "/kakarinweb/static/js/runtime-main.637a3be1.js.map",
     "static/js/2.2f20467d.chunk.js": "/kakarinweb/static/js/2.2f20467d.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.637a3be1.js",
     "static/js/2.2f20467d.chunk.js",
     "static/css/main.9c414eac.chunk.css",
-    "static/js/main.726db1c5.chunk.js"
+    "static/js/main.fa86430e.chunk.js"
   ]
 }
