@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import About from './pages/about/About'
+import Message from './pages/message/Message'
+import TopView from './pages/Top/TopView'
+import './style.css'
+// import SignUp from './pages/SignUp'
+import SignIn from './pages/SignIn'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route
+} from 'react-router-dom'
+import Gallery from './pages/ gallery/ Gallery'
+import Diary from './pages/diary/Diary'
+import Footer from './pages/Footer'
+import CustomDiary from './pages/diary/CustomDiary'
+import LoggedInRoute from './pages/LoggedInRoute'
+import { AuthProvider } from './pages/AuthService'
+
+
+
+
+
+
+
+
+const App = () =>{
+
+    return(
+    
+       <>
+          <AuthProvider>
+                <Router>
+                    <Switch>
+                            <LoggedInRoute path='/customDiary' component={CustomDiary}/>
+                            {/* <Route exact path='/signup' component={SignUp}/> */}
+                            <Route exact path='/signin' component={SignIn}/>
+                            <Route exact path='/gallery'component={Gallery}/>
+                            <Route exact path= '/diary' component={Diary}/>
+                            <Route exact path='/about' component={About}/>
+                            <Route exact path='/message' component={Message} />
+                            <Route exact path='(/)?' component={TopView}/>
+                    </Switch>
+                </Router>
+                <Footer/>
+          </AuthProvider>
+       </>
+       
+       
+    )
 }
 
-export default App;
+export default  App
