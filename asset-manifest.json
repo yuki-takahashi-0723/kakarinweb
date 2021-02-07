@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kakarinweb/static/css/main.9c414eac.chunk.css",
-    "main.js": "/kakarinweb/static/js/main.fa86430e.chunk.js",
-    "main.js.map": "/kakarinweb/static/js/main.fa86430e.chunk.js.map",
+    "main.js": "/kakarinweb/static/js/main.610a0796.chunk.js",
+    "main.js.map": "/kakarinweb/static/js/main.610a0796.chunk.js.map",
     "runtime-main.js": "/kakarinweb/static/js/runtime-main.637a3be1.js",
     "runtime-main.js.map": "/kakarinweb/static/js/runtime-main.637a3be1.js.map",
-    "static/js/2.2f20467d.chunk.js": "/kakarinweb/static/js/2.2f20467d.chunk.js",
-    "static/js/2.2f20467d.chunk.js.map": "/kakarinweb/static/js/2.2f20467d.chunk.js.map",
+    "static/js/2.848a48ca.chunk.js": "/kakarinweb/static/js/2.848a48ca.chunk.js",
+    "static/js/2.848a48ca.chunk.js.map": "/kakarinweb/static/js/2.848a48ca.chunk.js.map",
     "index.html": "/kakarinweb/index.html",
     "static/css/main.9c414eac.chunk.css.map": "/kakarinweb/static/css/main.9c414eac.chunk.css.map",
-    "static/js/2.2f20467d.chunk.js.LICENSE.txt": "/kakarinweb/static/js/2.2f20467d.chunk.js.LICENSE.txt",
+    "static/js/2.848a48ca.chunk.js.LICENSE.txt": "/kakarinweb/static/js/2.848a48ca.chunk.js.LICENSE.txt",
     "static/media/03C05CAC-EEFD-44AE-A967-0B53B27A6E33_1_105_c.dffae68f.jpeg": "/kakarinweb/static/media/03C05CAC-EEFD-44AE-A967-0B53B27A6E33_1_105_c.dffae68f.jpeg",
     "static/media/1B61BD00-BB87-48EE-925C-933681FAD9C2_1_201_a.f108786c.jpeg": "/kakarinweb/static/media/1B61BD00-BB87-48EE-925C-933681FAD9C2_1_201_a.f108786c.jpeg",
     "static/media/50273B25-83B9-4EDE-BCC3-A7711CE44F84_1_105_c.26345ad8.jpeg": "/kakarinweb/static/media/50273B25-83B9-4EDE-BCC3-A7711CE44F84_1_105_c.26345ad8.jpeg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.637a3be1.js",
-    "static/js/2.2f20467d.chunk.js",
+    "static/js/2.848a48ca.chunk.js",
     "static/css/main.9c414eac.chunk.css",
-    "static/js/main.fa86430e.chunk.js"
+    "static/js/main.610a0796.chunk.js"
   ]
 }
