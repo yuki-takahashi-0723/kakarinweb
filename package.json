@@ -2,6 +2,7 @@
   "name": "websiste",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://yuki-takahashi-0723.github.io/kakarinweb/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -18,9 +19,9 @@
     "react-scripts": "4.0.1",
     "shortid": "^2.2.16",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4",
-    "homepage":"https://yuki-takahashi-0723.github.io/kakarinweb/",
-    "name": "kakarinweb"
+    "web-vitals": "^0.2.4"
+    
+    
 
   },
   "scripts": {

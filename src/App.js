@@ -7,7 +7,7 @@ import './style.css'
 import SignIn from './pages/SignIn'
 
 import {
-    BrowserRouter as Router,
+    HashRouter,
     Switch,
     Route
 } from 'react-router-dom'
@@ -27,11 +27,12 @@ import { AuthProvider } from './pages/AuthService'
 
 const App = () =>{
 
+
     return(
     
        <>
           <AuthProvider>
-                <Router>
+                <HashRouter>
                     <Switch>
                             <LoggedInRoute path='/customDiary' component={CustomDiary}/>
                             {/* <Route exact path='/signup' component={SignUp}/> */}
@@ -40,9 +41,9 @@ const App = () =>{
                             <Route exact path= '/diary' component={Diary}/>
                             <Route exact path='/about' component={About}/>
                             <Route exact path='/message' component={Message} />
-                            <Route exact path='(/)?' component={TopView}/>
+                            <Route exact path='/' component={TopView}/>
                     </Switch>
-                </Router>
+                </HashRouter>
                 <Footer/>
           </AuthProvider>
        </>
